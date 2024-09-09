@@ -7,8 +7,8 @@
 body{
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(90deg,rgb(29, 67, 216),rgb(29, 180, 231));
-  background-color: rgb(29, 67, 216);
+  background-image: linear-gradient(90deg,rgb(242, 181, 67),rgb(199, 144, 4));
+  background-color: rgb(199, 144, 4);
   color: azure;
 }
 
@@ -16,24 +16,34 @@ body{
   width: 100%;
   text-align: center;
   position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 40%;
+  transform: translateY(-60%);
 }
 
 .text2 {
   width: 100%;
   text-align: center;
   position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 40%;
+  transform: translateY(-60%);
+}
+
+div{
+  transition: background-color 800ms;
+}
+
+a{color: azure;}
+
+a:hover{
+ color: rgba(93, 92, 92, 0.5);
 }
 
 #amp {
   width: 100%;
   text-align: center;
   position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 40%;
+  transform: translateY(-60%);
 }
 
 span{
@@ -62,7 +72,7 @@ span:nth-of-type(4) {
   animation-delay: 0.6s;
 }
 span:nth-of-type(5) {
-  animation-delay: 1s;
+  animation-delay: 1.2s;
 }
 
 @keyframes appear {
@@ -84,17 +94,16 @@ animation-name: exclamtion;
 animation-duration: 1.5s;
 animation-timing-function: ease-in;
 animation-fill-mode: forwards;
-animation-delay: 6s;
+animation-delay: 5.1s;
 }
 
 #w {
   bottom: 100px;
-  font-size: calc( em +  vw);
   animation-name: exclamtion;
   animation-duration: 1.5s;
   animation-timing-function: ease-in;
   animation-fill-mode: forwards;
-  animation-delay: 5.5s;
+  animation-delay: 4s;
   }
   
   #amp {
@@ -104,7 +113,7 @@ animation-delay: 6s;
     animation-duration: 1.5s;
     animation-timing-function: ease-in;
     animation-fill-mode: forwards;
-    animation-delay: 4.5s;
+    animation-delay: 3.5s;
     }
     
 
