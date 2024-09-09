@@ -32,7 +32,7 @@ div{
   transition: background-color 800ms;
 }
 
-a{color: azure;}
+a {color: azure;}
 
 a:hover{
  color: rgba(93, 92, 92, 0.5);
