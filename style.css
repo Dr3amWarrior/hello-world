@@ -47,7 +47,7 @@ a:hover{
 }
 
 span{
-  padding: 0 calc(0.5rem + 0.5vw);
+  padding: 0 calc(0.15rem + 0.15vw);
   position: relative;
   opacity: 0;
 }
