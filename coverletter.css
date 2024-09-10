@@ -1,0 +1,25 @@
+*{
+  padding: 0;
+  box-sizing: border-box;
+}
+img{
+  margin: 0;
+  box-sizing: border-box;
+  padding-left: 32px;
+  max-height: 45%;
+  max-width: 45%;
+  position: relative;
+}
+
+hr {
+  height: 3px;
+  background-color: rgb(237, 153, 153);
+  transform: rotate(180deg);
+  transition: 500ms;
+  border-width: 0px;
+}
+
+h1{
+  padding-left: 18px;
+  color: rgb(3, 21, 34);
+}
